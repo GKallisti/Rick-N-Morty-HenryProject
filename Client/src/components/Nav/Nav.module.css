@@ -1,0 +1,46 @@
+Nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('./fullpage.jpg');    position: absolute;
+    width: 100%;
+    height: 6rem;
+}
+
+
+
+.Navimg {
+    width: 120px;
+    height: 150px;
+filter: invert();
+
+}
+
+
+.btns{
+    display: flex;
+    margin-right: 5rem;
+    align-items: center;
+    gap: 5rem;
+    margin-top: .5rem;
+    height: 9rem;
+    overflow: hidden;
+}
+
+a{ 
+    color: black;
+    padding: 3rem;
+    text-decoration: none;
+    letter-spacing: 0.06em;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:hover{
+    box-shadow: 0 0 1rem #0000009b, 0 0 4rem #33ff009b, 0 0 8rem #0000009b;
+    border-radius: 20px;
+
+}
+
+ 

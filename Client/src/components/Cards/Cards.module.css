@@ -1,0 +1,10 @@
+.container {
+    text-align: center;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    margin-block: 7%;
+    flex-wrap: wrap;
+   
+}
+
